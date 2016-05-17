@@ -1,0 +1,13 @@
+.dockerignore
+.eslintignore
+.git
+.gitignore
+.hound.yml
+.jshintrc
+.travis.yml
+Dockerfile
+Gruntfile.js
+LICENSE
+node_modules/
+README.md
+spec/
