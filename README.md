@@ -15,12 +15,6 @@ Note: requires MongoDB and RabbitMQ to be running to start correctly.
 
     sudo node index.js
 
-## Config
-
-
-## Debugging/Profiling
-
-
 ## CI/Testing
 
 To run tests from a developer console:
