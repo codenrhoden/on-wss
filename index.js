@@ -38,32 +38,32 @@ function onWssContextFactory() {
         },
 
         run: function () {
-          var logger = this.logger,
-              messenger = this.messenger,
-              waterline = this.waterline,
-              wss = this.wss;
+            var logger = this.logger,
+                messenger = this.messenger,
+                waterline = this.waterline,
+                wss = this.wss;
 
-          Promise.all([messenger.start(), waterline.start()])
-              .then(function () {
-                  console.log('Messenger and Waterline Services started...');
-                  wss.start(function () {
-                      console.log('WebSocket Server started...');
-                  });
-              })
-              .catch(function (err) { console.error(err);});
+            Promise.all([messenger.start(), waterline.start()])
+                .then(function () {
+                    console.log('Messenger and Waterline Services started...');
+                    wss.start(function () {
+                        console.log('WebSocket Server started...');
+                    });
+                })
+                .catch(function (err) { console.error(err);});
 
-          process.on('SIGINT', function () {
-              console.log('Stopping WebSocket Server...');
-              wss.stop();
-              messenger.stop();
-              waterline.stop();
-          });
+            process.on('SIGINT', function () {
+                console.log('Stopping WebSocket Server...');
+                wss.stop();
+                messenger.stop();
+                waterline.stop();
+            });
 
-          return this;
+            return this;
         }
     };
 }
 
 if (require.main === module) {
-  onWssContextFactory().initialize().run();
+    onWssContextFactory().initialize().run();
 }

@@ -63,7 +63,7 @@
     "predef" : [
         "_",
         "chai",
-        "dihelper",
+        "console",
         "expect",
         "helper",
         "onHttpContext",
