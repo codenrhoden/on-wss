@@ -1,4 +1,4 @@
-# on-wss [![Build Status](https://travis-ci.org/RackHD/on-wss.svg?branch=master)](https://travis-ci.org/RackHD/on-wss) [![Code Climate](https://codeclimate.com/github/RackHD/on-wss/badges/gpa.svg)](https://codeclimate.com/github/RackHD/on-wss) [![Coverage Status](https://coveralls.io/repos/RackHD/on-wss/badge.svg?branch=master&service=github)](https://coveralls.io/github/RackHD/on-wss?branch=master)
+# on-wss [![Build Status](https://travis-ci.org/RackHD/on-wss.svg?branch=master)](https://travis-ci.org/RackHD/on-wss) [![Code Climate](https://codeclimate.com/github/RackHD/on-wss/badges/gpa.svg)](https://codeclimate.com/github/RackHD/on-wss) [![Coverage Status](https://coveralls.io/repos/github/RackHD/on-wss/badge.svg?branch=master)](https://coveralls.io/github/RackHD/on-wss?branch=master)
 
 __`on-wss` is the WebSocket server for RackHD__
 
