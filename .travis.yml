@@ -3,6 +3,10 @@ sudo: true
 node_js:
   - "4"
   - "5"
+  
+services:
+  - mongodb
+  - rabbitmq
 
 matrix:
   allow_failures:
