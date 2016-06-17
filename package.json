@@ -14,7 +14,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "lodash.flattendeep": "^4.2.0",
-    "on-core": "git+https://github.com/RackHD/on-core.git",
+    "on-core": "file:../on-core",
     "ws": "^1.1.0"
   },
   "devDependencies": {
